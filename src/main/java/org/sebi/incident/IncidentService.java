@@ -8,7 +8,7 @@ import javax.ws.rs.QueryParam;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
-@RegisterRestClient(baseUri = "http://localhost:8081")
+@RegisterRestClient()
 public interface IncidentService {
     
     @GET

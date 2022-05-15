@@ -2,13 +2,9 @@ package org.sebi.incident;
 
 import java.util.Date;
 
-import javax.persistence.Entity;
+public class Incident {
 
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
-
-@Entity
-public class Incident extends PanacheEntity {
-
+    public int id;
     public String description;
     public Date date;
     public boolean status;
